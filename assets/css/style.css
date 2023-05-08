@@ -218,7 +218,7 @@ img {
   align-items: center;
   color: #000000;
   padding: 10px 18px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
@@ -651,10 +651,6 @@ section {
 .whoami .content p {
   text-align: justify;
 }
-.whoami .content ul {
-  list-style: none;
-  padding-left: 0 !important;
-}
 /* 
 .whoami .content ul li {
   margin-bottom: 50px;
@@ -678,6 +674,25 @@ section {
   margin-bottom: 0;
 }
 
+/*--------------------------------------------------------------
+# Certifications
+--------------------------------------------------------------*/
+.certification h4 {
+  background: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.8), rgb(0, 0, 0, 0.6),rgb(0, 0, 0, 0.4));
+  padding: 5px 0px 5px 10px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.certification ul {
+  list-style: none;
+  padding-left: 0 !important;
+}
+.certification ul p {
+  padding-left: 10px;
+}
+.certification ul p span {
+  font-weight: bold;
+}
 /*--------------------------------------------------------------
 # achievements
 --------------------------------------------------------------*/
@@ -784,18 +799,15 @@ section {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-family: "Poppins", sans-serif;
   color: #222222;
-  margin-bottom: 10px;
+  padding: 5px 0;
 }
 
 .experience .experience-item h5 {
-  font-size: 16px;
-  background: #f7f8f9;
-  padding: 5px 15px;
-  display: inline-block;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 200;
   margin-bottom: 10px;
 }
 .experience .experience-item i {
@@ -803,6 +815,8 @@ section {
   font-size: 14px;
   right: 0%;
   /* position: absolute; */
+  display: inline-block;
+  color: #000000b6;
 }
 
 .experience .experience-item ul {
@@ -834,8 +848,28 @@ section {
 /*--------------------------------------------------------------
 # Education
 --------------------------------------------------------------*/
+.education .education-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #222222;
+  padding: 5px 0;
+}
+.education .education-item i {
+  text-align: right;
+  font-size: 14px;
+  right: 0%;
+  /* position: absolute; */
+  display: inline-block;
+  color: #000000b6;
+}
+.education .education-item ul {
+  margin: 10px 0px;
+}
 .education .education-item ul li{
-  line-height: 50px;
+  line-height: 30px;
 }
 
 /*--------------------------------------------------------------
@@ -1676,8 +1710,18 @@ section {
 #footer .copyright {
   margin: 0 0 5px 0;
 }
-
-
+#footer .whatsapp-box {
+  position: fixed;
+  bottom: 10px;
+  height: 60px;
+  width: 60px;
+  left: 15px;
+  z-index: 99999;
+  transition: all ease-in-out 0.3s;
+}
+#footer .whatsapp-box img {
+  width: 100%;
+}
 
 /*######-----Round-----######*/
 #menu-round {
