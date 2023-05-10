@@ -648,32 +648,25 @@ section {
   font-size: 26px;
   color: #121212ce;
 }
+.whoami .content i {
+  font-size: 18px;
+}
 .whoami .content p {
   text-align: justify;
+  margin-left: 25px;
+  margin-top: -25px;
 }
-/* 
-.whoami .content ul li {
-  margin-bottom: 50px;
-  display: flex;
-  opacity: 0;
-  align-items: center;
-  list-style-type:: none !important;
-} */
-
 .whoami .content ul strong {
   margin-right: 10px;
 }
-
 .whoami .content ul p i {
   margin-right: 5px;
   color: #222222;
   line-height: 0;
 }
-
 .whoami .content p:last-child {
   margin-bottom: 0;
 }
-
 /*--------------------------------------------------------------
 # Certifications
 --------------------------------------------------------------*/
